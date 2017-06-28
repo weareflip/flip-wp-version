@@ -1,0 +1,23 @@
+{
+  "name": "weareflip/flip-wp-version",
+  "description": "Flip Version API",
+  "keywords": ["flip", "framework", "wordpress"],
+  "authors": [
+    {
+      "name": "Andris Trieb",
+      "email": "andris@weareflip.com",
+      "homepage": "http://weareflip.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "composer/installers" : "~1.2"
+  }
+}
